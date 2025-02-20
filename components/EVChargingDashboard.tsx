@@ -208,9 +208,9 @@ const EVChargingDashboard: React.FC = () => {
       );
       
       // Calculate average energy per charging session using the charging demand distribution
-      const avgEnergyPerCharge = CHARGING_DEMANDS.reduce((sum, demand) => 
-        sum + (demand.range * consumption / 100) * demand.probability, 0
-      );
+    //   const avgEnergyPerCharge = CHARGING_DEMANDS.reduce((sum, demand) => 
+    //     sum + (demand.range * consumption / 100) * demand.probability, 0
+    //   );
 
       return {
         totalEnergy: 0, // Will be updated by generateMockDayData
